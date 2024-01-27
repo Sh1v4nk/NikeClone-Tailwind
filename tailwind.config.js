@@ -7,6 +7,10 @@ module.exports = {
         'montserrat': ['Montserrat', 'sans-serif'],
         'palanquin' : ['Palanquin', 'sans-serif'],
       },
+      backgroundImage: {
+        'collection': "url('../Assets/images/collection-background.svg')",
+        'thumbnail': "url('../Assets/images/thumbnail-background.svg')",
+      }
     },
   },
   plugins: [],
