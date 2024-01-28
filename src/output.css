@@ -583,6 +583,18 @@ video {
   margin-top: 2.5rem;
 }
 
+.mt-11{
+  margin-top: 2.75rem;
+}
+
+.mt-16{
+  margin-top: 4rem;
+}
+
+.mt-2{
+  margin-top: 0.5rem;
+}
+
 .mt-20{
   margin-top: 5rem;
 }
@@ -591,8 +603,16 @@ video {
   margin-top: 0.75rem;
 }
 
+.mt-4{
+  margin-top: 1rem;
+}
+
 .mt-6{
   margin-top: 1.5rem;
+}
+
+.mt-8{
+  margin-top: 2rem;
 }
 
 .inline-block{
@@ -603,12 +623,20 @@ video {
   display: flex;
 }
 
+.grid{
+  display: grid;
+}
+
 .hidden{
   display: none;
 }
 
 .h-5{
   height: 1.25rem;
+}
+
+.h-\[282px\]{
+  height: 282px;
 }
 
 .h-\[29px\]{
@@ -627,6 +655,10 @@ video {
   width: 129px;
 }
 
+.w-\[282px\]{
+  width: 282px;
+}
+
 .w-full{
   width: 100%;
 }
@@ -637,6 +669,16 @@ video {
 
 .cursor-pointer{
   cursor: pointer;
+}
+
+.select-none{
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+.grid-cols-1{
+  grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
 .flex-col{
@@ -671,6 +713,10 @@ video {
   gap: 2.5rem;
 }
 
+.gap-14{
+  gap: 3.5rem;
+}
+
 .gap-16{
   gap: 4rem;
 }
@@ -679,8 +725,16 @@ video {
   gap: 0.5rem;
 }
 
+.gap-2\.5{
+  gap: 0.625rem;
+}
+
 .gap-4{
   gap: 1rem;
+}
+
+.gap-5{
+  gap: 1.25rem;
 }
 
 .rounded-full{
@@ -697,6 +751,14 @@ video {
 
 .border-2{
   border-width: 2px;
+}
+
+.border-solid{
+  border-style: solid;
+}
+
+.border-none{
+  border-style: none;
 }
 
 .border-orange-600{
@@ -754,10 +816,6 @@ video {
   padding-bottom: 2rem;
 }
 
-.pr-10{
-  padding-right: 2.5rem;
-}
-
 .pt-28{
   padding-top: 7rem;
 }
@@ -768,6 +826,11 @@ video {
 
 .font-palanquin{
   font-family: Palanquin, sans-serif;
+}
+
+.text-2xl{
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .text-5xl{
@@ -796,6 +859,14 @@ video {
 
 .font-medium{
   font-weight: 500;
+}
+
+.font-semibold{
+  font-weight: 600;
+}
+
+.capitalize{
+  text-transform: capitalize;
 }
 
 .leading-7{
@@ -829,6 +900,22 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.padding{
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+@media (min-width: 640px){
+  .padding{
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
 .padding-x{
   padding-left: 2rem;
   padding-right: 2rem;
@@ -841,6 +928,24 @@ video {
   }
 }
 
+.padding-b{
+  padding-bottom: 3rem;
+}
+
+@media (min-width: 640px){
+  .padding-b{
+    padding-bottom: 6rem;
+  }
+}
+
+.info-text{
+  font-family: Montserrat, sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  --tw-text-opacity: 1;
+  color: rgb(55 65 81 / var(--tw-text-opacity));
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -849,7 +954,39 @@ video {
   outline: none;
   text-decoration: none;
   list-style-type: none;
+  scroll-behavior: smooth;
   -webkit-tap-highlight-color: transparent;
+}
+
+/* OnSelect styling */
+
+::-moz-selection {
+  color: white;
+  background: rgb(234 88 12);
+}
+
+::selection {
+  color: white;
+  background: rgb(234 88 12);
+}
+
+/* Scrollbar styling */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: white;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(234 88 12);
+}
+
+.hover\:text-orange-600:hover{
+  --tw-text-opacity: 1;
+  color: rgb(234 88 12 / var(--tw-text-opacity));
 }
 
 @media not all and (min-width: 1280px){
@@ -879,9 +1016,21 @@ video {
   .max-lg\:hidden{
     display: none;
   }
+
+  .max-lg\:flex-col{
+    flex-direction: column;
+  }
 }
 
 @media not all and (min-width: 640px){
+  .max-sm\:mt-12{
+    margin-top: 3rem;
+  }
+
+  .max-sm\:w-full{
+    width: 100%;
+  }
+
   .max-sm\:flex-1{
     flex: 1 1 0%;
   }
@@ -921,8 +1070,28 @@ video {
     max-width: 24rem;
   }
 
+  .sm\:grid-cols-2{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .sm\:gap-6{
     gap: 1.5rem;
+  }
+}
+
+@media (min-width: 768px){
+  .md\:grid-cols-3{
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1024px){
+  .lg\:max-w-lg{
+    max-width: 32rem;
+  }
+
+  .lg\:grid-cols-4{
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 }
 
