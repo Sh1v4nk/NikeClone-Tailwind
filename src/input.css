@@ -11,9 +11,28 @@
   outline: none;
   text-decoration: none;
   list-style-type: none;
+  scroll-behavior: smooth;
   -webkit-tap-highlight-color: transparent;
 }
 
+/* OnSelect styling */
+::selection {
+  color: white;
+  background: rgb(234 88 12);
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: white;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(234 88 12);
+}
 
 
 @layer components {
@@ -23,7 +42,7 @@
   }
 
   .input {
-    @apply sm:flex-1 max-sm:w-full text-base leading-normal text-slate-gray pl-5 max-sm:p-5 outline-none sm:border-none border max-sm:border-slate-gray max-sm:rounded-full;
+    @apply sm:flex-1 max-sm:w-full text-base leading-normal text-gray-700 pl-5 max-sm:p-5 outline-none sm:border-none border max-sm:text-gray-700 max-sm:rounded-full;
   }
 }
 
@@ -57,6 +76,6 @@
   }
 
   .info-text {
-    @apply font-montserrat text-slate-gray text-lg leading-7;
+    @apply font-montserrat text-gray-700 text-lg leading-7;
   }
 }
