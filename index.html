@@ -10,18 +10,19 @@
 <body>
 
   <main class="relative">
+
     <!-- NavBar starts here -->
     <header class="padding-x py-8 absolute z-10 w-full">
       <nav class="flex justify-between items-center max-container">
-        <a href="/">
+        <a href="https://sh1v4nk.github.io/NikeClone-Tailwind/">
           <img src="./Assets/images/header-logo.svg" alt="nike-logo" width="129" height="29"
             class="m-0 w-[129px] h-[29px]">
         </a>
         <ul class="flex-1 flex justify-center items-center gap-16 max-lg:hidden">
-          <li><a href="#home" class="font-montserrat leading-normal text-lg text-gray-700">Home</a></li>
-          <li><a href="#about-us" class="font-montserrat leading-normal text-lg text-gray-700">About Us</a></li>
-          <li><a href="#products" class="font-montserrat leading-normal text-lg text-gray-700">Products</a></li>
-          <li><a href="#contact-us" class="font-montserrat leading-normal text-lg text-gray-700">Contact Us</a></li>
+          <li><a href="#home" class="font-montserrat leading-normal text-lg text-gray-700 hover:text-orange-600">Home</a></li>
+          <li><a href="#about-us" class="font-montserrat leading-normal text-lg text-gray-700 hover:text-orange-600">About Us</a></li>
+          <li><a href="#products" class="font-montserrat leading-normal text-lg text-gray-700 hover:text-orange-600">Products</a></li>
+          <li><a href="#contact-us" class="font-montserrat leading-normal text-lg text-gray-700 hover:text-orange-600">Contact Us</a></li>
         </ul>
         <div class="flex gap-2 text-lg leading-normal font-medium font-montserrat max-lg:hidden">
           <a href="/">Sign in</a>
@@ -37,7 +38,7 @@
 
 
     <!-- Home section starts here -->
-    <section class="xl:padding-l">
+    <section class="xl:padding-l wide:padding-r padding-b">
 
       <section id="home" class="w-full flex xl:flex-row flex-col justify-center min-h-screen gap-10 max-container">
 
@@ -45,15 +46,15 @@
 
           <p class="text-xl font-montserrat text-orange-600">Our Summer collections</p>
           <h1 class="mt-10 font-palanquin text-8xl max-sm:text-[72px] max-sm:leading-[82px] font-bold">
-            <span class="xl:whitespace-nowrap relative z-10 pr-10">The New Arrival</span><br>
+            <span class="xl:whitespace-nowrap relative z-10">The New Arrival</span><br>
             <span class="text-orange-600 inline-block mt-3">Nike</span> Shoes
           </h1>
           <p class="font-montserrat text-gray-700 text-lg leading-8 mt-6 mb-14 sm:max-w-sm">
             Discover stylish Nike arrivals, quality comfort, and innovation for your active life.
           </p>
-          <button class="flex justify-center items-center gap-2 px-7 py-4 border font-montserrat text-lg leading-none bg-orange-600 text-white  border-orange-600 rounded-full">
+          <button class="flex justify-center items-center gap-2 px-7 py-4 border font-montserrat text-lg leading-none bg-orange-600 text-white  border-orange-600 rounded-full select-none">
             Shop now
-            <img src="./Assets/icons/arrow-right.svg" alt="arrow right icon" class="ml-2 rounded-full bg-white w-5 h-5">
+            <img src="./Assets/icons/arrow-right.svg" alt="right-arrow-icon" class="ml-2 rounded-full bg-white w-5 h-5 select-none">
           </button>
           <div class="flex justify-start items-start flex-wrap w-full mt-20 gap-16">
             <div>
@@ -71,33 +72,33 @@
           </div>
         </div>
         <div class="relative flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40 bg-collection bg-cover bg-center">
-          <img src="./Assets/images/big-shoe1.png" alt="shoe collection" width="610" height="502"
-            class="object-contain relative z-10">
+          <img id="collection-image" src="./Assets/images/big-shoe1.png" alt="shoe collection" width="610" height="502"
+            class="object-contain relative z-10 select-none">
           <div class="flex sm:gap-6 gap-4 absolute -bottom-[5%] sm:left-[10%] max-sm:px-6">
             <div>
-              <div class="border-2 rounded-xl  border-orange-600 cursor-pointer max-sm:flex-1">
+              <div  id="thumbnail-1" class="border-2 border-solid rounded-xl border-orange-600 cursor-pointer max-sm:flex-1">
                 <div
                   class="flex justify-center items-center bg-thumbnail bg-center bg-cover sm:w-40 sm:h-40 rounded-xl max-sm:p-4">
                   <img src="./Assets/images/thumbnail-shoe1.svg" alt="shoe collection" width="127" height="103.34"
-                    class="object-contain">
+                    class="object-contain select-none">
                 </div>
               </div>
             </div>
             <div>
-              <div class="border-2 rounded-xl border-transparent cursor-pointer max-sm:flex-1">
+              <div  id="thumbnail-2" class="border-2 rounded-xl border-orange-600 cursor-pointer max-sm:flex-1">
                 <div
                   class="flex justify-center items-center bg-thumbnail bg-center bg-cover sm:w-40 sm:h-40 rounded-xl max-sm:p-4">
                   <img src="./Assets/images/thumbnail-shoe2.svg" alt="shoe collection" width="127" height="103.34"
-                    class="object-contain">
+                    class="object-contain select-none">
                 </div>
               </div>
             </div>
             <div>
-              <div class="border-2 rounded-xl border-transparent cursor-pointer max-sm:flex-1">
+              <div  id="thumbnail-3" class="border-2 rounded-xl border-orange-600 cursor-pointer max-sm:flex-1">
                 <div
                   class="flex justify-center items-center bg-thumbnail bg-center bg-cover sm:w-40 sm:h-40 rounded-xl max-sm:p-4">
                   <img src="./Assets/images/thumbnail-shoe3.svg" alt="shoe collection" width="127" height="103.34"
-                    class="object-contain">
+                    class="object-contain select-none">
                 </div>
               </div>
             </div>
@@ -105,8 +106,10 @@
         </div>
       </section>
     </section>
-    <!-- Home section starts here -->
+    <!-- Home section ends here -->
   </main>
 
+
+  <script src="script.js" defer></script>
 </body>
 </html>
