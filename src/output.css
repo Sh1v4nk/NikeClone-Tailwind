@@ -612,10 +612,6 @@ video {
   margin-left: 0.5rem;
 }
 
-.mt-1{
-  margin-top: 0.25rem;
-}
-
 .mt-10{
   margin-top: 2.5rem;
 }
@@ -634,10 +630,6 @@ video {
 
 .mt-20{
   margin-top: 5rem;
-}
-
-.mt-24{
-  margin-top: 6rem;
 }
 
 .mt-3{
@@ -664,6 +656,14 @@ video {
   margin-bottom: 1.5rem;
 }
 
+.mt-1{
+  margin-top: 0.25rem;
+}
+
+.mt-24{
+  margin-top: 6rem;
+}
+
 .inline-block{
   display: inline-block;
 }
@@ -688,10 +688,6 @@ video {
   height: 1.25rem;
 }
 
-.h-\[120px\]{
-  height: 120px;
-}
-
 .h-\[282px\]{
   height: 282px;
 }
@@ -704,6 +700,10 @@ video {
   height: 3rem;
 }
 
+.h-\[120px\]{
+  height: 120px;
+}
+
 .min-h-screen{
   min-height: 100vh;
 }
@@ -714,10 +714,6 @@ video {
 
 .w-5{
   width: 1.25rem;
-}
-
-.w-\[120px\]{
-  width: 120px;
 }
 
 .w-\[129px\]{
@@ -734,6 +730,10 @@ video {
 
 .w-12{
   width: 3rem;
+}
+
+.w-\[120px\]{
+  width: 120px;
 }
 
 .max-w-lg{
@@ -858,11 +858,6 @@ video {
   border-style: solid;
 }
 
-.border-gray-700{
-  --tw-border-opacity: 1;
-  border-color: rgb(55 65 81 / var(--tw-border-opacity));
-}
-
 .border-orange-600{
   --tw-border-opacity: 1;
   border-color: rgb(234 88 12 / var(--tw-border-opacity));
@@ -873,14 +868,14 @@ video {
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
+.border-gray-700{
+  --tw-border-opacity: 1;
+  border-color: rgb(55 65 81 / var(--tw-border-opacity));
+}
+
 .bg-orange-600{
   --tw-bg-opacity: 1;
   background-color: rgb(234 88 12 / var(--tw-bg-opacity));
-}
-
-.bg-pale-blue{
-  --tw-bg-opacity: 1;
-  background-color: rgb(245 246 255 / var(--tw-bg-opacity));
 }
 
 .bg-white{
@@ -888,13 +883,18 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-transparent{
-  background-color: transparent;
-}
-
 .bg-black{
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.bg-pale-blue{
+  --tw-bg-opacity: 1;
+  background-color: rgb(245 246 255 / var(--tw-bg-opacity));
+}
+
+.bg-transparent{
+  background-color: transparent;
 }
 
 .bg-collection{
@@ -991,11 +991,6 @@ video {
   line-height: 2.25rem;
 }
 
-.text-4xl{
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
 .text-5xl{
   font-size: 3rem;
   line-height: 1;
@@ -1014,6 +1009,11 @@ video {
 .text-xl{
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-4xl{
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .text-base{
@@ -1077,26 +1077,9 @@ video {
   color: rgb(156 163 175 / var(--tw-text-opacity));
 }
 
-.text-gray-200{
+.text-gray-600{
   --tw-text-opacity: 1;
-  color: rgb(229 231 235 / var(--tw-text-opacity));
-}
-
-.text-gray-300{
-  --tw-text-opacity: 1;
-  color: rgb(209 213 219 / var(--tw-text-opacity));
-}
-
-.opacity-5{
-  opacity: 0.05;
-}
-
-.opacity-50{
-  opacity: 0.5;
-}
-
-.opacity-75{
-  opacity: 0.75;
+  color: rgb(75 85 99 / var(--tw-text-opacity));
 }
 
 .opacity-70{
@@ -1203,19 +1186,20 @@ video {
   background: rgb(234 88 12);
 }
 
+.dot {
+  height: 5px;
+  width: 5px;
+  background-color: rgb(234 88 12);
+  border-radius: 50%;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 999999999999;
+}
+
 .hover\:text-orange-600:hover{
   --tw-text-opacity: 1;
   color: rgb(234 88 12 / var(--tw-text-opacity));
-}
-
-.hover\:text-gray-700:hover{
-  --tw-text-opacity: 1;
-  color: rgb(55 65 81 / var(--tw-text-opacity));
-}
-
-.hover\:text-gray-600:hover{
-  --tw-text-opacity: 1;
-  color: rgb(75 85 99 / var(--tw-text-opacity));
 }
 
 .hover\:text-gray-500:hover{
@@ -1247,18 +1231,6 @@ video {
 }
 
 @media not all and (min-width: 1024px){
-  .max-lg\:absolute{
-    position: absolute;
-  }
-
-  .max-lg\:top-5{
-    top: 1.25rem;
-  }
-
-  .max-lg\:top-28{
-    top: 7rem;
-  }
-
   .max-lg\:block{
     display: block;
   }
@@ -1269,15 +1241,6 @@ video {
 
   .max-lg\:flex-col{
     flex-direction: column;
-  }
-
-  .max-lg\:justify-center{
-    justify-content: center;
-  }
-
-  .max-lg\:bg-white{
-    --tw-bg-opacity: 1;
-    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   }
 }
 
@@ -1359,10 +1322,6 @@ video {
 
   .sm\:gap-6{
     gap: 1.5rem;
-  }
-
-  .sm\:border{
-    border-width: 1px;
   }
 
   .sm\:border-solid{
