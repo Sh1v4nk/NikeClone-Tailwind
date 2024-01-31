@@ -34,6 +34,17 @@
   background: rgb(234 88 12);
 }
 
+.dot {
+  height: 5px;
+  width: 5px;
+  background-color: rgb(234 88 12);
+  border-radius: 50%;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 999999999999;
+}
+
 
 @layer components {
   .max-container {
