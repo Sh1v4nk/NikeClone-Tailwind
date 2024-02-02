@@ -101,3 +101,32 @@ if (isTouchDevice) {
 
   animateDots();
 }
+
+const menuButton = document.getElementById("menu-button");
+const navLinks = document.getElementById("nav-links");
+
+function hideNavLinks() {
+  navLinks.classList.remove("max-lg:inline-flex");
+  navLinks.classList.add("max-lg:hidden");
+}
+
+menuButton.addEventListener("click", function () {
+  // Toggle visibility of nav links
+  if (navLinks.classList.contains("max-lg:hidden")) {
+    navLinks.classList.remove("max-lg:hidden");
+    navLinks.classList.add("max-lg:inline-flex");
+  } else {
+    hideNavLinks();
+  }
+});
+
+document.addEventListener("click", function (event) {
+  if (
+    !event.target.closest("#menu-button") &&
+    !event.target.closest("#nav-links")
+  ) {
+    hideNavLinks();
+  } else if (event.target.closest("#nav-links a")) {
+    hideNavLinks();
+  }
+});
