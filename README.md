@@ -27,12 +27,12 @@ The NikeClone-Tailwind project aims to replicate the design and visual elements 
 1. Clone the repository using the following command:
 
 ```bash
-git clone https://github.com/Sh1v4nk/SnakeXenzia.git
+git clone https://github.com/Sh1v4nk/NikeClone-Tailwind.git
 ```
 
 2. Open the `index.html` file in your web browser.
 
-3. Alternatively, you can view a live demo of the NikeClone-Tailwind [here](https://sh1v4nk.github.io/SnakeXenzia/).
+3. Alternatively, you can view a live demo of the NikeClone-Tailwind [here](https://sh1v4nk.github.io/NikeClone-Tailwind/).
 
 ## Technologies Used
 
