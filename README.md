@@ -7,7 +7,8 @@ This is a hands-on project to practice using Tailwind CSS by creating a visually
 - [Description](#description)
 - [Features](#features)
 - [Installation](#installation)
-- [Contributing](#contributing)
+- [Technologies Used](#technologies-used)
+- [Screenshots](#screenshots)
 
 ## Description
 
@@ -15,31 +16,35 @@ The NikeClone-Tailwind project aims to replicate the design and visual elements 
 
 ## Features
 
-- Responsive design ❌
-- Navigation bar ✅
-- Product showcase ❌
-- Footer with social media links ❌
-- Visual elements similar to the Nike website ❌
+- Responsive design
+- Navigation bar
+- Product showcase
+- Footer with social media links
+- Visual elements similar to the Nike website
 
 ## Installation
 
-1. Clone the repository:
+1. Clone the repository using the following command:
 
-   ```bash
-   git clone https://github.com/Sh1v4nk/NikeClone-Tailwind.git
-   ```
+```bash
+git clone https://github.com/Sh1v4nk/SnakeXenzia.git
+```
 
-2. Change into the project directory:
+2. Open the `index.html` file in your web browser.
 
-   ```bash
-   cd NikeClone-Tailwind
-   ```
+3. Alternatively, you can view a live demo of the NikeClone-Tailwind [here](https://sh1v4nk.github.io/SnakeXenzia/).
 
-3. Open the `index.html` file in your web browser to view the website.
+## Technologies Used
 
-## Contributing
+- HTML
+- Tailwind CSS
+- JavaScript
 
-Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
+## Screenshots
+
+<div align="center">
+  <img src="https://i.ibb.co/ftdFsFm/Desktop-Homescreen-View.png" alt="NikeClone Desktop-View" />
+</div>
 
 ---
 
