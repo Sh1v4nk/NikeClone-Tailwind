@@ -4,13 +4,13 @@ This is a hands-on project to practice using Tailwind CSS by creating a visually
 
 ## Table of Contents
 
-- [Description](#description)
+- [Overview](#overview)
 - [Features](#features)
 - [Installation](#installation)
 - [Technologies Used](#technologies-used)
 - [Screenshots](#screenshots)
 
-## Description
+## Overview
 
 The NikeClone-Tailwind project aims to replicate the design and visual elements of the Nike website using HTML and Tailwind CSS. It serves as a learning exercise to gain practical experience with Tailwind CSS and improve web development skills.
 
