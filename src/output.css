@@ -1153,8 +1153,6 @@ video {
   box-sizing: border-box;
   border: none;
   outline: none;
-  text-decoration: none;
-  list-style-type: none;
   scroll-behavior: smooth;
   -webkit-tap-highlight-color: transparent;
 }
