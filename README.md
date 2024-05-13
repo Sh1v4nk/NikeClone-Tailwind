@@ -10,11 +10,11 @@ This is a hands-on project to practice using Tailwind CSS by creating a visually
 - [Technologies Used](#technologies-used)
 - [Screenshots](#screenshots)
 
-## 👟 Overview
+## Overview
 
 The NikeClone-Tailwind project aims to replicate the design and visual elements of the Nike website using HTML and Tailwind CSS. It serves as a learning exercise to gain practical experience with Tailwind CSS and improve web development skills.
 
-## ✨ Features
+## Features
 
 - Responsive design
 - Navigation bar
@@ -22,7 +22,7 @@ The NikeClone-Tailwind project aims to replicate the design and visual elements 
 - Footer with social media links
 - Visual elements similar to the Nike website
 
-## 🔧 Installation
+## Installation
 
 1. Clone the repository using the following command:
 
@@ -34,13 +34,13 @@ git clone https://github.com/Sh1v4nk/NikeClone-Tailwind.git
 
 3. Alternatively, you can view a live demo of the [NikeClone-Tailwind](https://sh1v4nk.github.io/NikeClone-Tailwind/).
 
-## 💻 Technologies Used
+## Technologies Used
 
 - HTML
 - Tailwind CSS
 - JavaScript
 
-## 📷 Screenshots
+## Screenshots
 
 <div align="center">
   <img src="https://i.ibb.co/ftdFsFm/Desktop-Homescreen-View.png" alt="NikeClone Desktop-View" />
