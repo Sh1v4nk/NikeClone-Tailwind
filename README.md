@@ -29,6 +29,9 @@ The NikeClone-Tailwind project aims to replicate the design and visual elements 
 ```bash
 git clone https://github.com/Sh1v4nk/NikeClone-Tailwind.git
 ```
+```
+ cd NikeClone-Tailwind
+```
 
 2. Open the `index.html` file in your web browser.
 
