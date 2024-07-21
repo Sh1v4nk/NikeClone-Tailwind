@@ -40,7 +40,7 @@ git clone https://github.com/Sh1v4nk/NikeClone-Tailwind.git
 ## Technologies Used
 
 - HTML
-- Tailwind CSS
+- [Tailwind](https://tailwindcss.com/)
 - JavaScript
 
 ## Screenshots
