@@ -41,7 +41,7 @@ git clone https://github.com/Sh1v4nk/NikeClone-Tailwind.git
 
 - HTML
 - [Tailwind](https://tailwindcss.com/)
-- JavaScript
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 ## Screenshots
 
