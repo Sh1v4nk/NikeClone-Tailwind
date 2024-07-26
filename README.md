@@ -39,7 +39,7 @@ git clone https://github.com/Sh1v4nk/NikeClone-Tailwind.git
 
 ## Technologies Used
 
-- HTML
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [Tailwind](https://tailwindcss.com/)
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
