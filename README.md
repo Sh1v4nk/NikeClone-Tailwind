@@ -1,6 +1,9 @@
+<div align="center">
+
 # NikeClone-Tailwind
 
 This is a hands-on project to practice using Tailwind CSS by creating a visually similar clone of the Nike website.
+</div>
 
 ## Table of Contents
 
