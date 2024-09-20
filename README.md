@@ -1,6 +1,9 @@
+<div align="center">
+
 # NikeClone-Tailwind
 
 This is a hands-on project to practice using Tailwind CSS by creating a visually similar clone of the Nike website.
+</div>
 
 ## Table of Contents
 
@@ -29,6 +32,9 @@ The NikeClone-Tailwind project aims to replicate the design and visual elements 
 ```bash
 git clone https://github.com/Sh1v4nk/NikeClone-Tailwind.git
 ```
+```
+ cd NikeClone-Tailwind
+```
 
 2. Open the `index.html` file in your web browser.
 
@@ -36,9 +42,9 @@ git clone https://github.com/Sh1v4nk/NikeClone-Tailwind.git
 
 ## Technologies Used
 
-- HTML
-- Tailwind CSS
-- JavaScript
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [Tailwind](https://tailwindcss.com/)
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 ## Screenshots
 
